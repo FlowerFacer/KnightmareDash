@@ -1,0 +1,1658 @@
+fileFormatVersion: 2
+guid: c8db37b1c2b55c340879ab8560d59309
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Castle Props 256x256_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1829
+        width: 120
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d089a60222ba7842aa2c70c3fa72e1b
+      internalID: -489560977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_1
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1818
+        width: 79
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25edca9f7d5d5c94fa8004ab9f7cb8c0
+      internalID: 1803766407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_2
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1827
+        width: 80
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1403e4d5ad38682448874b567b51e5f2
+      internalID: -1363520684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_3
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1828
+        width: 200
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acddd3231a604d34385eefd3266afd0b
+      internalID: 1886347222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_4
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1888
+        width: 193
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2683da750645d4db7808a0c0c38da1
+      internalID: 1775443449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_5
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1900
+        width: 157
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300fa68da6599404ba478b4172b6878f
+      internalID: 1599997821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_6
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 1813
+        width: 87
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867a50671b48ed744929cd9203bcaf95
+      internalID: 1936314701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_7
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 1813
+        width: 87
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41184db39fae0a408409bf7bafcbf5d
+      internalID: -476712425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1556
+        width: 86
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9534a17570a9af549b3701f4252f74c9
+      internalID: 1355381653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_9
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1556
+        width: 86
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e8081560fb8684aa82065e2c50e8a4
+      internalID: 46758151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_10
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1557
+        width: 136
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125ed558788df9a4b896d1c464cd1fcb
+      internalID: 330227155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_11
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1557
+        width: 136
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a084dbddfc78eb4da15f05a712dcda6
+      internalID: 610041946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_12
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1635
+        width: 187
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2574fac3ffe164899ffa3a4204f6ee
+      internalID: 202249834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_13
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 1623
+        width: 212
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee7a4b8de7c60f4b9c57641df82b231
+      internalID: -845950707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_14
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 1559
+        width: 194
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e7e5d5a30abdf419a67c91e8fb5aed
+      internalID: 1211449784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_15
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 1565
+        width: 208
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92758ee5ca220a4abcedd928f8317f0
+      internalID: 912159664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_16
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1305
+        width: 74
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b067fca0736b144906c73a49023319
+      internalID: 929855019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_17
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1304
+        width: 149
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2c186d9ea9ec64593940ab07dcab48
+      internalID: 1983823520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_18
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1335
+        width: 156
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bd5db1e5453264aa4ba1e05016da81
+      internalID: -1979313823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_19
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1335
+        width: 189
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe728354ac5a8a548a23c0008fe50194
+      internalID: 501974817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_20
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1326
+        width: 34
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a31b29e467d95458b3eec1fd54f1c2
+      internalID: 11107481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_21
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1305
+        width: 21
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069a93a6c67caa34a99f0f5e0f4e3a8e
+      internalID: 334661950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_22
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1300
+        width: 34
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e055258b69245f4b98a63787435343d
+      internalID: 1916781967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_23
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 1308
+        width: 40
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c6229bc6b8dd943947bc6bb5e6043f
+      internalID: 141245513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_24
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1055
+        width: 194
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2075c3b4c113a441b0a5cf50394e2ec
+      internalID: -1656874360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_25
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1067
+        width: 155
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc09753126302d4686053c925fdbd06
+      internalID: 1611271660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_26
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1093
+        width: 160
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465e72a015a2e874eaa2fd6cdbdca972
+      internalID: -1027630114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_27
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1051
+        width: 218
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6808fdf29d39fb46a71f6c86f8d68e3
+      internalID: -243963387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_28
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 1073
+        width: 151
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e6c27b395c9a440a598c2d97ff3e73
+      internalID: -1709943897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_29
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 1071
+        width: 202
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0920920967d864aaa79ab82eede2e5
+      internalID: -2078818166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_30
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 1072
+        width: 180
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e05fca14aee1fe4b97e2844c9c6efac
+      internalID: 408825332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_31
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 1080
+        width: 165
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0940413cd275eac409435496f9b54719
+      internalID: 1438885290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_32
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 799
+        width: 153
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ddc2ac7458aa048a70cd91540accf6
+      internalID: -2137940225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_33
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 804
+        width: 135
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2296f0a26036d40bce3037d7a86e9c
+      internalID: -547622499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_34
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 803
+        width: 142
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c25d1c50a5fa3f468400e9bcaa07e5a
+      internalID: -1775194897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_35
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 803
+        width: 122
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffde02bdc1ce84043b8863ad606dafd9
+      internalID: 1758981462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_36
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 829
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680bd20e808f02a4c9e1a49154b0f535
+      internalID: -1204487889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_37
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 810
+        width: 201
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853b6af8dc27e29448deb23fd237e40a
+      internalID: -1413882596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_38
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 819
+        width: 130
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0dc88ddfc03b24418e14871b7066a46
+      internalID: -569262590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_39
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 826
+        width: 158
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01715f12242f2674aa57da9fa326b001
+      internalID: 457746938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_40
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 566
+        width: 105
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b05f3a4ed426a4998fdb6525a95876
+      internalID: -1499887285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_41
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 539
+        width: 24
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec76ce919081e044acad0be66441406
+      internalID: -574844638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_42
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 729
+        width: 204
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9855f016727c5f242afef8971e60b3e5
+      internalID: 805926409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_43
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 568
+        width: 100
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a664dc487b48604b8371845131382a9
+      internalID: 1798494496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_44
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 544
+        width: 110
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a58c6eb6b5dcf4ea987301c7de5966
+      internalID: 1880122580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_45
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 538
+        width: 83
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4b007992fc7af45a8bbe49b18dc5bf
+      internalID: -365032031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_46
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 538
+        width: 111
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c7040d1c284bb4d853609462966ce2
+      internalID: 1359262463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_47
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 562
+        width: 99
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeddf02a43a6200498acbb7bf09e0546
+      internalID: -1755340316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 307
+        width: 204
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54d2538200ad27479be0136a7664ab2
+      internalID: -1277323593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_49
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 294
+        width: 146
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89040c94494d6964c9f9f7a6b2e502f2
+      internalID: 1946246667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_50
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 305
+        width: 86
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26659ab2445c136448e04e9de2e79c47
+      internalID: 775459476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_51
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 312
+        width: 125
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97a311cee5a4d04ab0ccc38f6b876ff
+      internalID: 129601202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_52
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 312
+        width: 78
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ebb590541bd9547a55a3aad92b522c
+      internalID: 1654176019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_53
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 310
+        width: 80
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82ae9481b43b0d43b528b10499f7f05
+      internalID: -829043173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_54
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 309
+        width: 144
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebea25f1c8e0ca14197fe53e90b40ce0
+      internalID: 1499605662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_55
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 323
+        width: 92
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4806c93e4f6a6294ca88578991161e84
+      internalID: -58976283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_56
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 326
+        width: 110
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d5a18a4462a094ea6c93fd83819eb7
+      internalID: -606299171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_57
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 326
+        width: 81
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24174585dc11ae4468317c233c7636db
+      internalID: 529408138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_58
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 66
+        width: 121
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f6d0eb40db565438e3fcda63a7b812
+      internalID: 1938338937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_59
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 59
+        width: 19
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c38b3320bdb6aa45a3544d733b1436c
+      internalID: -1725575759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_60
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 59
+        width: 38
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c965c9b4c373141be181524bd8c1a3
+      internalID: 1427543932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_61
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 59
+        width: 49
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d0f6ae2885cb048a05a79cbf8e120f
+      internalID: -1768816850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_62
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 59
+        width: 42
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f08098bbd29cae498589f402123695b
+      internalID: -728633469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_63
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 17
+        width: 117
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e234d1aaf39db143858cd8f5316fe0a
+      internalID: 1464370880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_64
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 24
+        width: 142
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafd717eb516a49468cc78756ed20bee
+      internalID: -1609218015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_65
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 20
+        width: 245
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a59a21b4289ebb49838b998db230786
+      internalID: -1986245134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_66
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 22
+        width: 244
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f050c3559103dd84e803c4f889474af8
+      internalID: 1604830964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_67
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 23
+        width: 240
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90876715582f19c469173c877b3b10f9
+      internalID: -1388135335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle Props 256x256_68
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 38
+        width: 185
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f77969d38d0a224b9f40bfcbf5de9e8
+      internalID: -392824404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Castle Props 256x256_0: -489560977
+      Castle Props 256x256_1: 1803766407
+      Castle Props 256x256_10: 330227155
+      Castle Props 256x256_11: 610041946
+      Castle Props 256x256_12: 202249834
+      Castle Props 256x256_13: -845950707
+      Castle Props 256x256_14: 1211449784
+      Castle Props 256x256_15: 912159664
+      Castle Props 256x256_16: 929855019
+      Castle Props 256x256_17: 1983823520
+      Castle Props 256x256_18: -1979313823
+      Castle Props 256x256_19: 501974817
+      Castle Props 256x256_2: -1363520684
+      Castle Props 256x256_20: 11107481
+      Castle Props 256x256_21: 334661950
+      Castle Props 256x256_22: 1916781967
+      Castle Props 256x256_23: 141245513
+      Castle Props 256x256_24: -1656874360
+      Castle Props 256x256_25: 1611271660
+      Castle Props 256x256_26: -1027630114
+      Castle Props 256x256_27: -243963387
+      Castle Props 256x256_28: -1709943897
+      Castle Props 256x256_29: -2078818166
+      Castle Props 256x256_3: 1886347222
+      Castle Props 256x256_30: 408825332
+      Castle Props 256x256_31: 1438885290
+      Castle Props 256x256_32: -2137940225
+      Castle Props 256x256_33: -547622499
+      Castle Props 256x256_34: -1775194897
+      Castle Props 256x256_35: 1758981462
+      Castle Props 256x256_36: -1204487889
+      Castle Props 256x256_37: -1413882596
+      Castle Props 256x256_38: -569262590
+      Castle Props 256x256_39: 457746938
+      Castle Props 256x256_4: 1775443449
+      Castle Props 256x256_40: -1499887285
+      Castle Props 256x256_41: -574844638
+      Castle Props 256x256_42: 805926409
+      Castle Props 256x256_43: 1798494496
+      Castle Props 256x256_44: 1880122580
+      Castle Props 256x256_45: -365032031
+      Castle Props 256x256_46: 1359262463
+      Castle Props 256x256_47: -1755340316
+      Castle Props 256x256_48: -1277323593
+      Castle Props 256x256_49: 1946246667
+      Castle Props 256x256_5: 1599997821
+      Castle Props 256x256_50: 775459476
+      Castle Props 256x256_51: 129601202
+      Castle Props 256x256_52: 1654176019
+      Castle Props 256x256_53: -829043173
+      Castle Props 256x256_54: 1499605662
+      Castle Props 256x256_55: -58976283
+      Castle Props 256x256_56: -606299171
+      Castle Props 256x256_57: 529408138
+      Castle Props 256x256_58: 1938338937
+      Castle Props 256x256_59: -1725575759
+      Castle Props 256x256_6: 1936314701
+      Castle Props 256x256_60: 1427543932
+      Castle Props 256x256_61: -1768816850
+      Castle Props 256x256_62: -728633469
+      Castle Props 256x256_63: 1464370880
+      Castle Props 256x256_64: -1609218015
+      Castle Props 256x256_65: -1986245134
+      Castle Props 256x256_66: 1604830964
+      Castle Props 256x256_67: -1388135335
+      Castle Props 256x256_68: -392824404
+      Castle Props 256x256_7: -476712425
+      Castle Props 256x256_8: 1355381653
+      Castle Props 256x256_9: 46758151
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

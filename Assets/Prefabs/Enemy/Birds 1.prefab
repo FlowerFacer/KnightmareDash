@@ -1,0 +1,1356 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &596214388627044161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1216322467962532603}
+  m_Layer: 0
+  m_Name: Birds 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1216322467962532603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596214388627044161}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 145.44942, y: 5.3615103, z: 0.99292076}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7077151775742060536}
+  - {fileID: 4760969490982930883}
+  - {fileID: 747224016783539266}
+  - {fileID: 1076043408749171916}
+  - {fileID: 7427964038684011589}
+  - {fileID: 3351318372066251677}
+  - {fileID: 2697243864543029665}
+  - {fileID: 1094845460603408178}
+  - {fileID: 140266635375824155}
+  - {fileID: 5324869540902783387}
+  - {fileID: 6454774729318718687}
+  - {fileID: 7217312597989012469}
+  - {fileID: 6546102358465320246}
+  - {fileID: 6525341692249753744}
+  - {fileID: 4360474597842201780}
+  - {fileID: 2784144907335915528}
+  - {fileID: 8092870684573386056}
+  - {fileID: 2439719630465673622}
+  - {fileID: 2128704848065786056}
+  - {fileID: 4002185460654088647}
+  - {fileID: 2885023789802441867}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &310552917421366365
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1216322467962532603}
+    m_Modifications:
+    - target: {fileID: 4332156151301811539, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_Name
+      value: Small Pink Bird Enemy (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 782.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.99292076
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+--- !u!4 &5324869540902783387 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+  m_PrefabInstance: {fileID: 310552917421366365}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &403070431126480680
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1216322467962532603}
+    m_Modifications:
+    - target: {fileID: 5592546489536464955, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_Name
+      value: Cutie Yellow Bird Enemy (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 690.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.931
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.99292076
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+--- !u!4 &6525341692249753744 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+  m_PrefabInstance: {fileID: 403070431126480680}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &414674969897351822
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1216322467962532603}
+    m_Modifications:
+    - target: {fileID: 5592546489536464955, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_Name
+      value: Cutie Yellow Bird Enemy (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 557.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.931
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.99292076
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+--- !u!4 &6546102358465320246 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+  m_PrefabInstance: {fileID: 414674969897351822}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &471368002582082407
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1216322467962532603}
+    m_Modifications:
+    - target: {fileID: 5592546489536464955, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_Name
+      value: Cutie Yellow Bird Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 206.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.931
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.99292076
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+--- !u!4 &6454774729318718687 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+  m_PrefabInstance: {fileID: 471368002582082407}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1144013828422929729
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1216322467962532603}
+    m_Modifications:
+    - target: {fileID: 4113994734052999750, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_Name
+      value: Pastel Chonk Bird Enemy (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 260.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.99292076
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+--- !u!4 &8092870684573386056 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+  m_PrefabInstance: {fileID: 1144013828422929729}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4124344793088985346
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1216322467962532603}
+    m_Modifications:
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 423
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.99292076
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7393314664412123496, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_Name
+      value: Cute Batty Enemy 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+--- !u!4 &747224016783539266 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+  m_PrefabInstance: {fileID: 4124344793088985346}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4265012510622489677
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1216322467962532603}
+    m_Modifications:
+    - target: {fileID: 5592546489536464955, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_Name
+      value: Cutie Yellow Bird Enemy (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 376.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.931
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.99292076
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+--- !u!4 &7217312597989012469 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+  m_PrefabInstance: {fileID: 4265012510622489677}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4435181637712339340
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1216322467962532603}
+    m_Modifications:
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 589.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.99292076
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7393314664412123496, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_Name
+      value: Cute Batty Enemy 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+--- !u!4 &1076043408749171916 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+  m_PrefabInstance: {fileID: 4435181637712339340}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4799533991472749300
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1216322467962532603}
+    m_Modifications:
+    - target: {fileID: 4332156151301811539, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_Name
+      value: Small Pink Bird Enemy (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 517.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.99292076
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+--- !u!4 &1094845460603408178 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+  m_PrefabInstance: {fileID: 4799533991472749300}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5198671290292431310
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1216322467962532603}
+    m_Modifications:
+    - target: {fileID: 4113994734052999750, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_Name
+      value: Pastel Chonk Bird Enemy (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 811.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.99292076
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+--- !u!4 &4002185460654088647 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+  m_PrefabInstance: {fileID: 5198671290292431310}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5501324360494356701
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1216322467962532603}
+    m_Modifications:
+    - target: {fileID: 4332156151301811539, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_Name
+      value: Small Pink Bird Enemy (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 660.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.99292076
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+--- !u!4 &140266635375824155 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+  m_PrefabInstance: {fileID: 5501324360494356701}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5860636666190467768
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1216322467962532603}
+    m_Modifications:
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -58.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.99292076
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7393314664412123496, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_Name
+      value: Cute Batty Enemy
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+--- !u!4 &7077151775742060536 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+  m_PrefabInstance: {fileID: 5860636666190467768}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6086434594493176069
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1216322467962532603}
+    m_Modifications:
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 749.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.99292076
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7393314664412123496, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_Name
+      value: Cute Batty Enemy 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+--- !u!4 &7427964038684011589 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+  m_PrefabInstance: {fileID: 6086434594493176069}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6315828296946418818
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1216322467962532603}
+    m_Modifications:
+    - target: {fileID: 4113994734052999750, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_Name
+      value: Pastel Chonk Bird Enemy (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 841.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.99292076
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+--- !u!4 &2885023789802441867 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+  m_PrefabInstance: {fileID: 6315828296946418818}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6416706483594694657
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1216322467962532603}
+    m_Modifications:
+    - target: {fileID: 4113994734052999750, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_Name
+      value: Pastel Chonk Bird Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.99292076
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+--- !u!4 &2784144907335915528 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+  m_PrefabInstance: {fileID: 6416706483594694657}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6806167834064314783
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1216322467962532603}
+    m_Modifications:
+    - target: {fileID: 4113994734052999750, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_Name
+      value: Pastel Chonk Bird Enemy (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 484.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.99292076
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+--- !u!4 &2439719630465673622 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+  m_PrefabInstance: {fileID: 6806167834064314783}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7072147032491636929
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1216322467962532603}
+    m_Modifications:
+    - target: {fileID: 4113994734052999750, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_Name
+      value: Pastel Chonk Bird Enemy (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 624
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.99292076
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+--- !u!4 &2128704848065786056 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9200851317762017289, guid: fe90fd7c1631d854b892a682a3286c1e, type: 3}
+  m_PrefabInstance: {fileID: 7072147032491636929}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7145159634036033115
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1216322467962532603}
+    m_Modifications:
+    - target: {fileID: 4332156151301811539, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_Name
+      value: Small Pink Bird Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 76.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.99292076
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+--- !u!4 &3351318372066251677 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+  m_PrefabInstance: {fileID: 7145159634036033115}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7177279110281528076
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1216322467962532603}
+    m_Modifications:
+    - target: {fileID: 5592546489536464955, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_Name
+      value: Cutie Yellow Bird Enemy (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 718.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.931
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.99292076
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+--- !u!4 &4360474597842201780 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6852602701442068408, guid: 3f5ce8e128e976a47bd23c9589975a3b, type: 3}
+  m_PrefabInstance: {fileID: 7177279110281528076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7549294768692542567
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1216322467962532603}
+    m_Modifications:
+    - target: {fileID: 4332156151301811539, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_Name
+      value: Small Pink Bird Enemy (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 315.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.99292076
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+--- !u!4 &2697243864543029665 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5596552226745243078, guid: c4e117631bb86634ab15b3ea0d3948f4, type: 3}
+  m_PrefabInstance: {fileID: 7549294768692542567}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8174153664832371843
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1216322467962532603}
+    m_Modifications:
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 139.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.99292076
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7393314664412123496, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+      propertyPath: m_Name
+      value: Cute Batty Enemy 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+--- !u!4 &4760969490982930883 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3702576768151516480, guid: bd61ea4b261dc1c4f9e0205fbda4fa53, type: 3}
+  m_PrefabInstance: {fileID: 8174153664832371843}
+  m_PrefabAsset: {fileID: 0}

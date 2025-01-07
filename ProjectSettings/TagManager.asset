@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Backgrounnd
+  - Midground
+  - Foreground
+  - Player
+  - Enemies
+  - GlowOnly
+  - Chest
+  - Pole
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 948663015
+    locked: 0
+  - name: Midground
+    uniqueID: 2869477715
+    locked: 0
+  - name: Foreground
+    uniqueID: 1553812709
+    locked: 0
+  - name: Front
+    uniqueID: 3998966825
+    locked: 0
+  - name: GlowOnly
+    uniqueID: 3860072235
+    locked: 0
+  - name: gold
+    uniqueID: 3896097111
+    locked: 0
+  - name: chest
+    uniqueID: 3711969063
+    locked: 0
+  - name: pole
+    uniqueID: 3879902141
+    locked: 0

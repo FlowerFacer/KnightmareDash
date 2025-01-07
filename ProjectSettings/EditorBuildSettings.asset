@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MenuScene.unity
+    guid: ce97e4e23d134f44aa7e8b3d5a3b217b
+  - enabled: 1
+    path: Assets/Scenes/StoryScene1.unity
+    guid: 123c27aff83dd3b458edfc7e0f67a00a
+  - enabled: 1
+    path: Assets/Scenes/StoryScene2.unity
+    guid: 4288e4763ef27434cb5141d07e6d6a4f
+  - enabled: 1
+    path: Assets/Scenes/StoryScene3.unity
+    guid: 0c7b2625d2589ed40bdede942eb42d45
+  - enabled: 1
+    path: Assets/Scenes/StoryScene4.unity
+    guid: f3da1e1fd8cb79140b019a2968a2a27c
+  - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
+    guid: b18cdc27ff2d86547a6c0c695efa4aab
+  - enabled: 1
+    path: Assets/Scenes/InGame.unity
+    guid: 3fc8acdd13e6c734bafef6554d6fdbcd
+  - enabled: 1
+    path: Assets/Scenes/Romantic1.unity
+    guid: 83bdfe0b6bcc901479e15bffa13775a0
+  - enabled: 1
+    path: Assets/Scenes/Romantic2.unity
+    guid: 9565451d99f8f9d4e902a7f29fe990c4
+  - enabled: 1
+    path: Assets/Scenes/Romantic3.unity
+    guid: 5e226033d6d06e84e9e4c2009b971c09
+  - enabled: 1
+    path: Assets/Scenes/True1.unity
+    guid: f8b9816bebd0dad4cb9d13ea8327e685
+  - enabled: 1
+    path: Assets/Scenes/True2.unity
+    guid: 1f791c890bb0fd94b8f973a9c9d614ab
+  - enabled: 1
+    path: Assets/Scenes/True3.unity
+    guid: 742e9efaa8192f647b42e18572ba3703
+  - enabled: 0
+    path: Assets/Asset Packs/2DBirds_Pack3/Scenes/Demo.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  m_configObjects:
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: dc75d8cb272cfd44ca45db114a830469, type: 2}
