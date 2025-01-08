@@ -5,7 +5,7 @@ using UnityEngine;
 public class ButtonSoundManager : MonoBehaviour
 {
     public AudioClip buttonClickSound; // The sound to play when a button is pressed
-    public float volume = 0.35f; // Adjustable volume for the button sound
+    public float volume = 0.25f; // Adjustable volume for the button sound
 
 
     private AudioSource audioSource;
