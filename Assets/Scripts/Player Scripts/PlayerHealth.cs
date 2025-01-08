@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
+using TMPro; // For TextMeshProUGUI
+using UnityEngine.UI; // For Image and other UI components
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -69,23 +69,27 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        currentHealth -= damage;
-
-        AudioManager.instance.PlaySound(TookDamage);
-
-        // Play the damaged animation
-        if (animator != null)
+        if (!isDead) // Only take damage if the player is alive
         {
-            animator.SetTrigger("Damaged");
-        }
+            currentHealth -= damage;
 
-        // Update hearts in UI
-        UpdateHearts();
+            AudioManager.instance.PlaySound(TookDamage);
 
-        if (currentHealth <= 0)
-        {
-            Die();
+            // Play the damaged animation
+            if (animator != null)
+            {
+                animator.SetTrigger("Damaged");
+            }
+
+            // Update hearts in UI
+            UpdateHearts();
+
+            if (currentHealth <= 0)
+            {
+                Die();
+            }
         }
+            
     }
 
     private void UpdateHearts()

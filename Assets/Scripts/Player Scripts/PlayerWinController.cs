@@ -78,7 +78,7 @@ public class PlayerWinController : MonoBehaviour
 
     private IEnumerator OpenChestWithDelay()
     {
-        yield return new WaitForSeconds(2f); // Delay time
+        yield return new WaitForSeconds(3f); // Delay time
         if (chestAnimator != null)
         {
             chestAnimator.SetBool("isOpen", true);
