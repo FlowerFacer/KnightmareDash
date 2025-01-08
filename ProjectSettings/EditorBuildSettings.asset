@@ -48,4 +48,7 @@ EditorBuildSettings:
     path: Assets/Asset Packs/2DBirds_Pack3/Scenes/Demo.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects:
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: ccaa418021bda8e419b42e32d0b31242, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 28b7039d7920f064781dcabef2a87341, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 26c5689287c379443a4cee8c749978e5, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: dc75d8cb272cfd44ca45db114a830469, type: 2}
