@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class GameStartCountdown : MonoBehaviour
 {
     public TextMeshProUGUI countdownText; // Ref to the UI text for displaying the countdown
-    public int countdownTime = 5; // Countdown starting time in seconds
+    public int countdownTime = 3; // Countdown starting time in seconds
 
     public PlayerMovement playerMovement; // Ref to the playerMovement script
     public List<GameObject> enemiesToDisable; // List of enemies to disable

@@ -62,7 +62,7 @@ public class PlayerWinController : MonoBehaviour
         AdjustForWinAnimation();
 
         // Show the Win Panel and Text after a short delay
-        Invoke(nameof(ShowWinPanel), 2f);
+        Invoke(nameof(ShowWinPanel), 4f);
     }
 
     public void AdjustForWinAnimation()
