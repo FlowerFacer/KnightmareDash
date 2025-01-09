@@ -21,7 +21,8 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 originalOffset;
     private Vector2 slideOffset = new Vector2(0, -0.2f);
 
-    private PlayerControls controls;
+     private PlayerControls controls;
+    [SerializeField] private LayerMask groundLayer; // For more accurate ground detection
 
     void Awake()
     {
