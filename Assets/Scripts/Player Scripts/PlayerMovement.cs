@@ -28,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
     {
         controls = new PlayerControls();
 
-        controls.Gameplay.Jump.performed += ctx => Jump();
+        controls.Gameplay.Jump.performed += ctx => OnJumpButtonPressed();
         controls.Gameplay.Slide.performed += ctx => StartSlide();
     }
 
@@ -65,21 +65,47 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = new Vector2(runSpeed, rb.velocity.y); // Auto-run logic
     }
 
-    public void Jump()
+    public void OnJumpButtonPressed()
     {
-        if (EventSystem.current.IsPointerOverGameObject() && isGrounded && !isJumping)
+        if (isGrounded && !isJumping)
         {
-            isJumping = true;
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-
-            if (animator != null)
-            {
-                animator.SetBool("isJumping", true);
-                animator.SetBool("isRunning", false);
-            }
-
-            Debug.Log("Jump Started");
+            StartJump();
         }
+    }
+
+    public void OnJumpButtonReleased() // Optional: Handle jump release if needed
+    {
+        if (isJumping)
+        {
+            StopJump();
+        }
+    }
+
+    public void StartJump()
+    {
+        isJumping = true;
+        rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+
+        if (animator != null)
+        {
+            animator.SetBool("isJumping", true);
+            animator.SetBool("isRunning", false);
+        }
+
+        Debug.Log("Jump Started");
+    }
+
+    private void StopJump()
+    {
+        isJumping = false;
+
+        if (animator != null)
+        {
+            animator.SetBool("isJumping", false);
+            animator.SetBool("isRunning", true);
+        }
+
+        Debug.Log("Jump Stopped");
     }
 
     public void StartSlide()

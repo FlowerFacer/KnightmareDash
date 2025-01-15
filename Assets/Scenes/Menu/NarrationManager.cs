@@ -32,7 +32,12 @@ public class NarrationManager : MonoBehaviour
 
     private void Start()
     {
+        // Ensure AudioSource is attached
         audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            Debug.LogError("AudioSource is missing. Please add one to the NarrationManager GameObject.");
+        }
 
         // Subscribe to scene-loaded events
         SceneManager.sceneLoaded += OnSceneLoaded;
@@ -42,7 +47,7 @@ public class NarrationManager : MonoBehaviour
     {
         if (audioSource == null)
         {
-            Debug.LogError("AudioSource is missing. Please add one to the NarrationManager GameObject.");
+            Debug.LogError("AudioSource is missing. Cannot play narration.");
             return;
         }
 
@@ -51,22 +56,30 @@ public class NarrationManager : MonoBehaviour
             audioSource.Stop();
         }
 
-        foreach (SceneNarration sn in sceneNarrations)
+        // Dynamically load the audio clip from the Resources folder
+        string clipName = $"{scene.name}";
+        AudioClip clip = Resources.Load<AudioClip>($"Narrations/{clipName}");
+
+        if (clip != null)
         {
-            if (sn.sceneName == scene.name && sn.narrationClip != null)
-            {
-                StartCoroutine(PlayNarrationWithDelay(sn.narrationClip, 0.5f)); // 1-second delay
-                break;
-            }
+            StartCoroutine(PlayNarrationWithDelay(clip, 0.5f));
+            Debug.Log($"Playing narration for scene: {scene.name}");
+        }
+        else
+        {
+            Debug.LogWarning($"No narration found for scene: {scene.name}");
         }
     }
 
     private IEnumerator PlayNarrationWithDelay(AudioClip clip, float delay)
     {
         yield return new WaitForSeconds(delay); // Wait for the specified delay
-        audioSource.clip = clip;
-        audioSource.Play();
-        Debug.Log("Playing narration after delay: " + clip.name);
+        if (audioSource != null)
+        {
+            audioSource.clip = clip;
+            audioSource.Play();
+            Debug.Log("Playing narration: " + clip.name);
+        }
     }
 
     private void OnDestroy()
